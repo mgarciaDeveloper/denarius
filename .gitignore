@@ -2,6 +2,10 @@
 
 # dependencies
 /node_modules
+/Diversos
+/.Diversos
+./Diversos
+Diversos/
 /.pnp
 .pnp.js
 
