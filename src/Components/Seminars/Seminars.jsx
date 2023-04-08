@@ -5,6 +5,7 @@ import useStyles from "../../Styles/styles";
 
 //Components
 import TableComp from "../UI/TableComp";
+
 import Gets from "../Gets/Gets";
 import BackdropComp from "../UI/BackdropComp";
 
@@ -29,10 +30,10 @@ export default function Seminars(props) {
             tableHead={titles}
             objkeys={keys}
             WhenClicked={(idt) => {
-                return navigate(`/cadastros/empresas/${idt}`);
+                return navigate(`/register/seminars/${idt}`);
             }}
             addItem={() => {
-                return navigate("/cadastros/empresas/thenewobject");
+                return navigate("/register/seminars/thenewobject");
             }}
             whatToSearch={""}
         />
